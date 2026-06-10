@@ -1,0 +1,6 @@
+# Keep LF line endings in the repo and on checkout. These files run on Linux
+# servers — CRLF would break the shell scripts (bash\r: command not found).
+* text=auto eol=lf
+*.sh   text eol=lf
+*.conf text eol=lf
+*.md   text eol=lf

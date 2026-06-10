@@ -1,0 +1,12 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# Local nginx test artifacts
+*.log
+*.pid
